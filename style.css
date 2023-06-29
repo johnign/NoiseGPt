@@ -3,6 +3,10 @@ html, body {
   margin: 0; 
   padding: 0; 
   overflow-x: hidden;
+  background-image: url("images/back.svg");
+}
+.back{
+  
 }
 
 .menu-items{
@@ -27,6 +31,8 @@ font-weight: 2rem;
 
 .hero{
   height: 100vh;
+  background:linear-gradient(to left, rgb(53, 58, 65), rgb(17, 24, 39), rgb(0, 0, 0))
+
 }
 
 
