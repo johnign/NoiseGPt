@@ -3,7 +3,9 @@ html, body {
   margin: 0; 
   padding: 0; 
   overflow-x: hidden;
-  background-image: url("images/back.svg");
+  background-image: url("images/voice1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .back{
   
