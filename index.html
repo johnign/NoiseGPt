@@ -15,14 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-    <style>
-      .gradient {
-        /* background: linear-gradient(90deg, #060607 60%, #b2b2bb 100%); */
-        
-        /* background:linear-gradient(#009B4D 70%, #FFCC00 100%,#FAF5E9 10%); */
-        /* background:linear-gradient(to left, rgb(53, 58, 65), rgb(17, 24, 39), rgb(0, 0, 0)) */
-      }
-    </style>
     <link rel="stylesheet" href="style.css">
     <!-- Font Awsome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +22,7 @@
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
     <nav id="header" class=" bg-black w-full z-30 top-0 text-white">
-      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4">
         <div class="pl-1 flex items-center">
           <a class="toggleColour text-blue-500 no-underline hover:no-underline font-bold text-2xl lg:text-1xl" href="#">
           <!-- <img height="100px" width="250px" src="/images/logo.png"> -->
@@ -46,33 +38,33 @@
           </button>
         </div>
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-          <ul class="menu-items list-reset lg:flex justify-center flex-1 items-center">
+          <ul class="menu-items list-reset lg:flex justify-center flex-auto items-center">
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline  py-2 px-2 " href="#">Home</a>
+              <a class=" inline-block text-white no-underline hover:text-underline  py-2 px-4 " href="#">Home</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#Product">Products</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#Product">Products</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#our-services">Gallery</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#our-services">Gallery</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#integ">Integrations</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#integ">Integrations</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#pricing">Token</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">Token</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#faq">FAQ</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#faq">FAQ</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#pricing">Press</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">Press</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#pricing">RoadMap</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">RoadMap</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-2" href="#team">Team</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#team">Team</a>
             </li>
           </ul>
           <button
@@ -86,9 +78,9 @@
       <!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
     </nav>
     <!--Hero-->
-    <div id="contact" class=" h-screen shadow-lg rounded-lg p-6 flex flex-col justify-center items-center" >
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row mt- items-center">
-        <div class="parallax-wrap">
+    <div id="contact" class=" h-screen shadow-lg flex flex-col justify-center items-center" >
+      <div class="container  parallax-wrap mx-auto flex flex-wrap flex-col md:flex-row">
+
           <span value="-15"></span>
           <span value="5"></span>
           <span value="30"></span>
@@ -105,14 +97,13 @@
           </h1>
           <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">
             Decentralized cutting edge generative artificial intelligence without any censorship. 
-            <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">Train and run the <a class="text-blue-500">noiseGPT</a> models. Profit from the paradigm shift.</p> 
+            <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">Train and run the <a class="text-gray-900">noiseGPT</a> models. Profit from the paradigm shift.</p> 
           </p>
         </div>
         <!--Right Col-->
         <div   class="md:w-3/5 ">  
           <img src="images/image.png" width="60%" height="50%" class="verified2  my-6 ml-40 origin-center rounded md-mx-0 md-my-0">
         </div>        
-    </div>
     </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
@@ -157,7 +148,10 @@
           Generate voice-overs that are indistinguishable from reality.
         </p>
       </div>
-    <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">
+    <button class="transition duration-75 ease-in-out
+    bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+    hover:-translate-y-1 hover:scale-110
+    rounded-full mx-20 py-2 border border-blue-900">
       TRY it
     </button>
   </div>
@@ -171,7 +165,10 @@
           Converse with our bots as if you were talking to a real person.
         </p>
       </div>
-    <button class="mx-10  bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">
+    <button class="transition duration-75 ease-in-out
+    bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+    hover:-translate-y-1 hover:scale-110
+    rounded-full mx-20 py-2 border border-blue-900">
       Learn more
     </button>
   </div>
@@ -185,7 +182,10 @@
           Recreate any voice with only ~60 seconds of audio.
         </p>
       </div>
-    <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">
+    <button class="transition duration-75 ease-in-out
+    bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+    hover:-translate-y-1 hover:scale-110
+    rounded-full mx-20 py-2 border border-blue-900">
      Learn more
     </button>
   </div>
@@ -213,52 +213,70 @@
   </section>
 <div>
 
-<section class="" id="integ">
+<section class="px-14" id="integ">
   <div class="text-center py-10">
        <h1 class="font-bold text-4xl py-4">Integrations<h1>
         <p class="text-2xl pb-6">Explore the different ways of interacting with our tools</p>
     </div>
     
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
+  <div class="grid grid-cols-3 justify-evenly sm:grid-cols-2 lg:grid-cols-3 gap-6 px-20 sm:px-10">
     <!-- First set of three columns -->
-    <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4 ">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4 "> -->
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">WEBAPP</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
-    <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- </div> -->
+    <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4"> -->
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">Telegram Free Bot</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
-    <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- </div> -->
+    <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4"> -->
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">Telegram Premium Bot</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
+    <!-- </div> -->
   
     <!-- Second set of three columns -->
-    <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4"> -->
+      <div class=" bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">Twitter Bot</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
-    <div class="bg-blue-400 bg-opacity-25  rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- </div> -->
+    <!-- <div class="bg-blue-400 bg-opacity-25  rounded-lg p-4"> -->
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">Discord</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
-    <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+    <!-- </div> -->
+    <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4"> -->
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold pb-6 mb-4">Android/iphone</h2>
-        <button class="bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+        <button class="transition duration-75 ease-in-out
+        bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+        hover:-translate-y-1 hover:scale-110
+        rounded-full px-10 py-2 border border-blue-900">Get Started</button>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
   </section>
   
@@ -274,7 +292,7 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
     <!-- First set of three columns -->
     <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold  mb-4">BUYING</h2>
         <p class="text-center pb-6 mb-4">The noiseGPT token is available on Uniswap V2 (Ethereum)</p>
         <button class="transition duration-75 ease-in-out
@@ -284,7 +302,7 @@
       </div>
     </div>
     <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-500 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold mb-4">BUYING</h2>
         <p class="text-center pb-6 mb-4">The noiseGPT token is available Uniswap V3 (Arbitrum)</p>
         <button class="transition duration-75 ease-in-out
@@ -294,9 +312,9 @@
       </div>
     </div>
     <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4">
-      <div class="bg-gradient-to-t from-gray-300 to-gray-800 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
+      <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
         <h2 class="text-lg font-bold mb-4">BRIDGING</h2>
-        <p class="text-center pb-6 mb-4">Bridge between Ethereum and Arbitrum by using the official Abritrum Bridge</p>
+        <p class="text-center  mb-4">Bridge between Ethereum and Arbitrum by using the official Abritrum Bridge</p>
         <button class="transition duration-75 ease-in-out
         bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
         hover:-translate-y-1 hover:scale-110
