@@ -21,7 +21,7 @@
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
-    <nav id="header" class=" bg-black w-full z-30 top-0 text-white">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4">
         <div class="pl-1 flex items-center">
           <a class="toggleColour text-blue-500 no-underline hover:no-underline font-bold text-2xl lg:text-1xl" href="#">
@@ -37,34 +37,34 @@
             </svg>
           </button>
         </div>
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0" id="nav-content">
           <ul class="menu-items list-reset lg:flex justify-center flex-auto items-center">
             <li class="mr-2">
-              <a class=" inline-block text-white no-underline hover:text-underline  py-2 px-4 " href="#">Home</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline  py-2 px-4 md:px-2" href="#">Home</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#Product">Products</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#Product">Products</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#our-services">Gallery</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#our-services">Gallery</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#integ">Integrations</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#integ">Integrations</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">Token</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#token">Token</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#faq">FAQ</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#faq">FAQ</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">Press</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#pricing">Press</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#pricing">RoadMap</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#pricing">RoadMap</a>
             </li>
             <li class="mr-2">
-              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4" href="#team">Team</a>
+              <a class="menu-item toggleColour inline-block text-white no-underline hover:text-underline py-2 px-4 md:px-2" href="#team">Team</a>
             </li>
           </ul>
           <button
@@ -97,7 +97,7 @@
           </h1>
           <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">
             Decentralized cutting edge generative artificial intelligence without any censorship. 
-            <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">Train and run the <a class="text-gray-900">noiseGPT</a> models. Profit from the paradigm shift.</p> 
+            <p class="hp whitspace-pre-line space-x-3 text-2xl text-center lg-text-1xl">Train and run the <a class="text-red-600">noiseGPT</a> models. Profit from the paradigm shift.</p> 
           </p>
         </div>
         <!--Right Col-->
@@ -127,7 +127,8 @@
     </div>
     
 <!--Brand Autoscroll-->
-<section class="back py-14 min-h-8" id="Product">
+<div id="Product">
+<section class="back min-h-8 pt-12">
   <div class=" solution container mx-auto flex flex-wrap pt-4 pb-12">
      <h2 class=" w-full my-2 text-4xl font-bold leading-tight text-center">
          Our products and Models  
@@ -190,36 +191,55 @@
     </button>
   </div>
 </div>
+</section>
+</div>
   <section>
     <div class="text-center ">
       <h1 class="font-bold text-4xl py-4">Examples<h1>
        <p class="text-2xl pb-6">Look at some of usecases of noiseGPT</p>
-    <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-14 rounded-full">
+       <div class="flex justify-center space-x-4">
+    <button class="transition duration-75 ease-in-out
+    bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+    hover:-translate-y-1 hover:scale-110
+    rounded-full py-2 px-6 border border-blue-900">
        ALL
      </button>
-     <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-10 rounded-full">
+     <button class="transition duration-75 ease-in-out
+     bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+     hover:-translate-y-1 hover:scale-110
+     rounded-full py-2 px-4 border border-blue-900">
       FUNNY
      </button>
-     <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">
+     <button class="transition duration-75 ease-in-out
+     bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+     hover:-translate-y-1 hover:scale-110
+     rounded-full py-2 px-4 border border-blue-900">
       DOCUMENTARY
      </button>
-     <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-8 rounded-full">
+     <button class="transition duration-75 ease-in-out
+     bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+     hover:-translate-y-1 hover:scale-110
+     rounded-full  px-4 py-2 border border-blue-900">
       PODCAST
      </button>
-     <button class="mx-10 bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold py-2 px-4 rounded-full">
+     <button class="transition duration-75 ease-in-out
+     bg-white text-gray-800 hover:bg-gray-800 hover:text-white font-bold transform
+     hover:-translate-y-1 hover:scale-110
+     rounded-full  py-2 px-4 border border-blue-900">
       ADVERTISING
      </button>
     </div>
+  </div>
   </section>
 <div>
 
-<section class="px-14" id="integ">
+<section class="px-14 pt-6" id="integ">
   <div class="text-center py-10">
        <h1 class="font-bold text-4xl py-4">Integrations<h1>
         <p class="text-2xl pb-6">Explore the different ways of interacting with our tools</p>
     </div>
     
-  <div class="grid grid-cols-3 justify-evenly sm:grid-cols-2 lg:grid-cols-3 gap-6 px-20 sm:px-10">
+  <div class="grid grid-cols-3 items-center justify-evenly sm:grid-cols-2 lg:grid-cols-3 gap-6 px-20 sm:px-10">
     <!-- First set of three columns -->
     <!-- <div class="bg-blue-400 bg-opacity-25 rounded-lg p-4 "> -->
       <div class="bg-blue-400 bg-opacity-25 pt-10 rounded-lg shadow-md p-4 text-center max-w-xs mx-auto">
@@ -280,7 +300,7 @@
   </div>
   </section>
   
-<section class="bg-[url('/images/background.jpg')]">
+<section class="pt-10" id="token">
   <div class=" solution container mx-auto flex flex-wrap pt-10 pb-12">
     <h2 class=" w-full my-2 text-4xl font-bold leading-tight text-center">
         noiseGPT Token
@@ -329,7 +349,7 @@
   <script src="app.js"></script>
   
 
-<section class="bg-[url('/img/vite1.jpg')" id="team">
+<section class="" id="team">
   <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
     <div class="mx-auto mb-10 lg:max-w-xl sm:text-center">
       <p class="inline-block py-px mb-4 text-2xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -455,11 +475,10 @@
     </div>
   </div>
 </section>
-<section class="" id="faq">
+<section class="py-12 " id="faq">
         <div class="">
             <div>
-                <div>
-                    <div class="mx-auto text-center px-4 mt-12 text-2xl font-semibold">Frequently Asked Questions</div>
+                 <div class="mx-auto text-center px-4 mt-12 text-2xl font-semibold">Frequently Asked Questions</div>
                     <dl class="mt-8 mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col lg:flex-row lg:flex-wrap">
                         <div class="lg:w-1/2">
                             <div class="question-and-answer select-none cursor-pointer mr-4 border-2 my-3 px-6 py-4 rounded-lg text-sm group">
@@ -712,7 +731,6 @@
 </dl>
 </div>
 </div>
-</div>
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
@@ -840,10 +858,12 @@
           
         } else {
           header.classList.remove("bg-white");
-          navaction.classList.remove("gradient");
+          // navaction.classList.remove("gradient");
           navaction.classList.add("bg-white");
           navaction.classList.remove("text-white");
           navaction.classList.add("text-gray-800");
+          // navaction.classList.remove("bg-white");
+          navaction.classList.add("bg-gray-800");
           navtoggle.classList.remove("text-grey-900")
           navtoggle.classList.add("text-white-800")
           //Use to switch toggleColour colours

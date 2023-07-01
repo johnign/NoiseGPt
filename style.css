@@ -8,6 +8,8 @@ html, body {
   background-size: auto;
   opacity:1;
   position:absolute;
+  background-attachment: fixed;
+  background-position: center;
 }
 .back{
   
